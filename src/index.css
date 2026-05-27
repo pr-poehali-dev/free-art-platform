@@ -4,23 +4,23 @@
 
 @layer base {
   :root {
-    --background: 40 35% 97%;
-    --foreground: 28 25% 14%;
+    --background: 262 38% 96%;
+    --foreground: 260 22% 18%;
 
-    --card: 38 30% 95%;
-    --card-foreground: 28 25% 14%;
+    --card: 258 30% 93%;
+    --card-foreground: 260 22% 18%;
 
-    --popover: 38 30% 95%;
-    --popover-foreground: 28 25% 14%;
+    --popover: 258 30% 93%;
+    --popover-foreground: 260 22% 18%;
 
     --primary: 34 68% 46%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 38 20% 88%;
-    --secondary-foreground: 28 20% 20%;
+    --secondary: 262 22% 88%;
+    --secondary-foreground: 260 20% 22%;
 
-    --muted: 38 20% 90%;
-    --muted-foreground: 30 12% 50%;
+    --muted: 262 22% 90%;
+    --muted-foreground: 262 12% 50%;
 
     --accent: 14 62% 50%;
     --accent-foreground: 0 0% 100%;
@@ -28,8 +28,8 @@
     --destructive: 0 62.8% 45%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 35 18% 83%;
-    --input: 38 20% 90%;
+    --border: 262 20% 84%;
+    --input: 262 22% 90%;
     --ring: 34 68% 46%;
 
     --radius: 0.75rem;
@@ -57,13 +57,18 @@
     background-image:
       radial-gradient(
         ellipse 80% 50% at 15% 8%,
-        hsl(34 68% 46% / 0.07) 0%,
+        hsl(270 55% 88% / 0.55) 0%,
         transparent 55%
       ),
       radial-gradient(
         ellipse 60% 40% at 85% 88%,
-        hsl(14 62% 50% / 0.06) 0%,
+        hsl(290 45% 90% / 0.45) 0%,
         transparent 55%
+      ),
+      radial-gradient(
+        ellipse 50% 60% at 50% 40%,
+        hsl(255 40% 95% / 0.6) 0%,
+        transparent 70%
       );
     min-height: 100vh;
   }

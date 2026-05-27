@@ -246,15 +246,15 @@ function HomeSection({ setSection }: { setSection: (s: Section) => void }) {
         </div>
 
         <div className="opacity-0 animate-fade-up" style={{ animationDelay: '0.2s', animationFillMode: 'forwards' }}>
-          <h1 className="font-cormorant font-light text-5xl md:text-6xl lg:text-7xl leading-tight mb-6">
-            <span className="text-shimmer">Мир слов и образов</span>
-            <br />
-            <span className="text-foreground/75">Ирины Кузьминой</span>
+          <h1 className="font-cormorant leading-tight mb-4">
+            <span className="text-shimmer font-light block text-6xl md:text-7xl lg:text-8xl">Мир слов</span>
+            <span className="text-shimmer font-light block text-6xl md:text-7xl lg:text-8xl">и образов</span>
+            <span className="font-semibold block text-3xl md:text-4xl text-foreground/70 mt-2">Ирины Кузьминой</span>
           </h1>
         </div>
 
         <div className="opacity-0 animate-fade-up" style={{ animationDelay: '0.35s', animationFillMode: 'forwards' }}>
-          <p className="font-golos text-lg text-muted-foreground leading-relaxed max-w-xl mx-auto mb-12">
+          <p className="font-cormorant italic text-xl text-muted-foreground leading-relaxed max-w-xl mx-auto mb-12">
             Здесь живут стихи, рождаются истории,
             хранятся картины и ручная работа — всё, что создаётся с душой.
           </p>
