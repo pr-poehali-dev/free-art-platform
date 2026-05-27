@@ -257,7 +257,7 @@ function HomeSection({ setSection }: { setSection: (s: Section) => void }) {
           <p className="font-cormorant text-2xl md:text-3xl text-muted-foreground leading-relaxed max-w-xl mx-auto mb-12">
             <span>Здесь живут стихи, рождаются истории,<br />хранятся картины и ручная работа —</span>
             <br />
-            <em>всё, что создаётся с душой</em>
+            <em>ВСЁ, ЧТО СОЗДАЁТСЯ С ДУШОЙ</em>
           </p>
         </div>
 
