@@ -254,9 +254,10 @@ function HomeSection({ setSection }: { setSection: (s: Section) => void }) {
         </div>
 
         <div className="opacity-0 animate-fade-up" style={{ animationDelay: '0.35s', animationFillMode: 'forwards' }}>
-          <p className="font-cormorant italic text-2xl md:text-3xl text-muted-foreground leading-relaxed max-w-xl mx-auto mb-12">
-            Здесь живут стихи, рождаются истории,
-            хранятся картины и ручная работа — всё, что создаётся с душой
+          <p className="font-cormorant text-2xl md:text-3xl text-muted-foreground leading-relaxed max-w-xl mx-auto mb-12">
+            <span>Здесь живут стихи, рождаются истории,<br />хранятся картины и ручная работа —</span>
+            <br />
+            <em>всё, что создаётся с душой</em>
           </p>
         </div>
 
