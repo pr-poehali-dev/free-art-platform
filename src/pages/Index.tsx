@@ -256,7 +256,7 @@ function HomeSection({ setSection }: { setSection: (s: Section) => void }) {
         <div className="opacity-0 animate-fade-up" style={{ animationDelay: '0.35s', animationFillMode: 'forwards' }}>
           <p className="font-golos text-lg text-muted-foreground leading-relaxed max-w-xl mx-auto mb-12">
             Здесь живут стихи, рождаются истории,
-            хранятся картины и поделки — всё, что создаётся с душой.
+            хранятся картины и ручная работа — всё, что создаётся с душой.
           </p>
         </div>
 
